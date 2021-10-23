@@ -1,0 +1,43 @@
+.container{
+    background-image: url('\assets\Layer 5.png');
+    width: auto;
+    background-repeat:no-repeat;
+    background-position: bottom; 
+}
+.container .header{
+    display: flex;
+    flex-direction: row;
+}
+
+.header-right-items{
+    display: flex;
+    flex-direction: row;
+    margin-left:40%
+}
+.right-item{
+    display: flex;
+    flex-direction: row;
+    padding-right: inherit;
+    padding-top:20px;
+}
+.inner-editor-section{
+    margin-left: 30px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.background-border{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(214, 211, 211);
+    color: #fff;
+    border-radius: 20px;
+    padding: 1px 1px;
+}
+
+.inner-editor-section2{
+    display: flex;
+    flex-direction: row;
+    margin-top:30px
+}
